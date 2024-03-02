@@ -18,7 +18,14 @@ EXTRAS:
 
 int main()
 {
-    double n1, n2;
+    int a, b, c;
+    a= 78;
+    b=6;
+    c=5;
+
+    printf("a+b-c = %d\n", a+b-c);
+    printf("a*b/c = %d\n", a*b/c);
+    printf("a-b*c = %d\n", a-b*c);
 
     return 0;
 }
