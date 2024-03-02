@@ -27,7 +27,8 @@ int main()
 
     printf("The sum is %d\n", a + b);
     printf("The subtraction is %d\n", a - b);
-    printf("The mutiplication is %d\n", a * b);
+    printf("The multiplication is %d\n", a * b);
     printf("The division is %d\n", a / b);
-    6 return 0;
+
+    return 0;
 }
