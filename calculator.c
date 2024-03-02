@@ -19,6 +19,7 @@ EXTRAS:
 int main()
 {
     int a, b, c;
+<<<<<<< Updated upstream
     a= 78;
     b=6;
     c=5;
@@ -26,6 +27,9 @@ int main()
     printf("a+b-c = %d\n", a+b-c);
     printf("a*b/c = %d\n", a*b/c);
     printf("a-b*c = %d\n", a-b*c);
+=======
+    
+>>>>>>> Stashed changes
 
     return 0;
 }
