@@ -1,5 +1,7 @@
 /*
 TODO:
+    Implement a basic calculator program
+
     1. Declare variables to store operands and result
     2. Get user input for operands
     3. Perform arithmetic operations (addition, subtraction, multiplication, division)
