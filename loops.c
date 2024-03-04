@@ -1,11 +1,6 @@
 #include <stdio.h>
 
-
-
-
-
 // do while
-
 
 // int main()
 // {
@@ -22,10 +17,6 @@
 //     return 0;
 // }
 
-
-
-
-
 // while loop
 
 // int main()
@@ -40,28 +31,21 @@
 //         i=i+1;
 //     }
 //     printf("hello bitches");
-    
-    
+
 //     return 0;
 // }
-
-
-
-
 
 // for loop
 
 int main()
 {
     int i, j;
-    for ( i = 0, j = 0; i < 5; i++)
+    char c = '*';
+    for (i = 0, j = 0, c = '*'; i < 5; i++)
     {
-        printf("%d %d\n", i, j);
+        printf("%d %c %d\n", i, c, j);
     }
-    
+    printf("%%d\n");
+
     return 0;
 }
-
-
-
-

@@ -18,12 +18,20 @@ EXTRAS:
 
 int main()
 {
-    int a, b;
-    printf("Enter base number a\n");
+    int a, b, p;
+
+    printf("enter the number\n");
     scanf("%d", &a);
 
     printf("Enter range of the table b\n");
-    scanf("%d", &b);
+    scanf("%d", &p);
 
-    return 0;6
+    printf("the table is\n");
+
+    for (b=0 ; b < p; b++)
+    {
+        printf("%d * %d = %d \n", a, b, a*b);;
+    }
+
+    return 0;
 }
