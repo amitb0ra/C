@@ -46,17 +46,15 @@ int main()
             printf("guessed number is less than random number\nEnter new guess\n");
             scanf("%d", &guess);
         }
+        else if (guess > randomNum)
+        {
+            printf("guessed number is greater than random number\nEnter new guess\n");
+            scanf("%d", &guess);
+        }
         else
         {
-            if (guess > randomNum)
-            {
-                printf("guessed number is greater than random number\nEnter new guess\n");
-                scanf("%d", &guess);
-            }
-            else
-            {
-                break;
-            }
+            printf("Congrats!");
+            break;
         }
         guess != randomNum;
 
