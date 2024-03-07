@@ -19,8 +19,21 @@ EXTRAS:
     9. Optimize the program for efficiency if necessary
 */
 
+int generateRandomNumber(int min, int max)
+{
+    // Seed the random number generator with the current time
+    srand(time(NULL));
+
+    // Calculate the random number within the specified range
+    int randomNumber = rand() % (max - min + 1) + min;
+
+    return randomNumber;
+}
+
 int main()
 {
+    int randomNum = generateRandomNumber(1, 100);
+    printf("Random Number: %d\n", randomNum);
 
     return 0;
 }
