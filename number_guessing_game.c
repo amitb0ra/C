@@ -55,3 +55,17 @@ int main()
     printf("Congrats!\nYour guess is right!");
     return 0;
 }
+
+// while (guess != randomNum){
+//         if (guess < randomNum)
+//         {
+//             printf("guessed number is less than random number\nEnter new guess\n");
+//             scanf("%d", &guess);
+//         }
+//         else
+//         {
+//             printf("guessed number is greater than random number\nEnter new guess\n");
+//             scanf("%d", &guess);
+//         }
+//     } 
+//     printf("Congrats!\nYour guess is right!");
