@@ -1,3 +1,10 @@
 {
+<<<<<<< Updated upstream
   "cSpell.words": ["cmpiling", "combinely", "condn", "levl", "senstivec"]
+=======
+  "files.associations": {
+    "stdio.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "enabled"
+>>>>>>> Stashed changes
 }
